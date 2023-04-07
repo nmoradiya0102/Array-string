@@ -1,0 +1,11 @@
+<script type="text/javascript">
+    var arr = [1, 2, 3, 4, 1, 5, 6, 7, 2, 5, 9, 7];
+
+    var  duplicateElements = arr.filter(function(element, index) {
+      return arr.indexOf(element) !== index;
+    });
+    
+    // console.log(duplicateElements);
+    document.write("Ans :- "+duplicateElements);
+
+</script>
